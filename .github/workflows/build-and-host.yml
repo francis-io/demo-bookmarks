@@ -49,7 +49,7 @@ jobs:
       - name: Build HTML 
         run: |
           mkdir -p public
-          static-marks build bookmarks.yml > public/bookmarks.html
+          static-marks build bookmarks.yml > public/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
