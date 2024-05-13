@@ -1,0 +1,19 @@
+Collection:
+  - Common-Services:
+      - Link 1: https://example.com
+      - Link 2:
+          - https://example.com
+      - Link with notes:
+          - https://example.com
+          - This is a text note
+          - Link note: https://example.com
+      - First-level note
+  - App-One:
+      - Link 1: https://example.com
+      - Link 2:
+          - https://example.com
+      - Link with notes:
+          - https://example.com
+          - This is a text note
+          - Link note: https://example.com
+      - First-level note
