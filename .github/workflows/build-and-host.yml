@@ -37,7 +37,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Install static-marks
-        run: npm install static-marks --cache .npm --prefer-offline
+        run: npm install static-marks -g
       - name: Build HTML 
         run: mkdir -p public && static-marks build bookmarks.yml > public/bookmarks.html  
       - name: Upload artifact
